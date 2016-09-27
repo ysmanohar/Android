@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CurrenyConvertor</string>
+    <string name="value">Amount (USD)</string>
+    <string name="result">Result:</string>
+    <string name="eur">Euro (EUR)</string>
+    <string name="cad">Canadian Dollar (CAD)</string>
+    <string name="gbp">British Pound (GBP)</string>
+    <string name="jpy">Japanese Yen (JPY)</string>
+    <string name="clearAll">Clear All</string>
+</resources>
