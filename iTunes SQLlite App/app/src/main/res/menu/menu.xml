@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mannu.inclass07">
+    <item
+        android:id="@+id/show"
+        android:orderInCategory="100"
+        android:title="Show favourites"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear"
+        android:orderInCategory="100"
+        android:title="Show All"
+        app:showAsAction="never" />
+</menu>
