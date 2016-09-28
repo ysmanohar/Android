@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pizza Store</string>
+    <string name="deliveryLabel">Delivery</string>
+    <string name="addButtonLabel">Add Topping</string>
+    <string name="clearButtonLabel">Clear Pizza</string>
+    <string name="checkoutLabel">Checkout</string>
+    <string name="pizzaPrice">6.5$</string>
+    <string name="Load_label">Load Previous Order</string>
+</resources>
