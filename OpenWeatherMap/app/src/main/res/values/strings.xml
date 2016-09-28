@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MAD Weather</string>
+    <string name="button_label">Check Weather!</string>
+    <string name="viewtext_label">Use metric system</string>
+    <string name="temp_label">Temperature:</string>
+    <string name="humidity_label">Humidity:</string>
+    <string name="Pressure_label">Pressure:</string>
+    <string name="Weather_label">weather:</string>
+</resources>
