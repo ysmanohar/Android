@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Main Activity</string>
+    <string name="nameHint">Name</string>
+    <string name="emailHint">Email</string>
+    <string name="fpl">Favorite Programming Language</string>
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="cSharp">C#</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="app_name1">Display Activity</string>
+    <string name="Student_label">Student Information</string>
+    <string name="Name_Label">Name:</string>
+    <string name="Email_label">Email:</string>
+    <string name="ProgLang_label">Prog. Language:</string>
+</resources>
