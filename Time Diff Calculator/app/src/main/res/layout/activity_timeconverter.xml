@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Homework 1 -->
+<!-- activity_timeconverter.xml -->
+<!-- Samantha Downing -->
+<!-- Sai Manohar Yerra -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TimeConverter">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:text="@string/utc"
+                android:id="@+id/utcLabel"
+                android:layout_alignParentTop="true" />
+
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="2"
+                android:id="@+id/hours"
+                android:hint="@string/hour" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="2"
+                android:id="@+id/minutes"
+                android:hint="@string/min" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/linearLayout2"
+            android:layout_below="@id/linearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/toggle"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/textView"/>
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/toggleButton"
+                android:layout_below="@+id/textView"
+                android:checked="true"
+                android:onClick="toggleButtons"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/linearLayout2">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/result"
+                android:layout_below="@id/linearLayout2"
+                android:hint="@string/result" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/previousDay"
+            android:id="@+id/warning"
+            android:paddingLeft="10dp"
+            android:textColor="#ff0000"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/buttonLayout"
+        android:layout_below="@id/linearLayout3">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/est"
+            android:id="@+id/buttonEST"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cst"
+            android:id="@+id/buttonCST"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mst"
+            android:id="@+id/buttonMST"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pst"
+            android:id="@+id/buttonPST"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_All"
+            android:id="@+id/buttonClearAll"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/radioLayout"
+        android:layout_below="@id/linearLayout3"
+        android:visibility="gone">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/est"
+                android:checked="true"
+                android:id="@+id/radioButtonEST"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cst"
+                android:id="@+id/radioButtonCST"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mst"
+                android:id="@+id/radioButtonMST"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pst"
+                android:id="@+id/radioButtonPST"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clear_All"
+                android:id="@+id/radioButtonClearAll"/>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/convert"
+            android:id="@+id/buttonConvert"
+            android:onClick="convertClick"/>
+    </LinearLayout>
+
+</RelativeLayout>

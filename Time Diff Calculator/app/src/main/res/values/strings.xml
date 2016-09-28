@@ -1,0 +1,19 @@
+<!-- Homework 1 -->
+<!-- strings.xml -->
+<!-- Samantha Downing -->
+
+<resources>
+    <string name="app_name">Time Converter</string>
+    <string name="utc">UTC: </string>
+    <string name="toggle">Button/Radio: </string>
+    <string name="result">Result: </string>
+    <string name="est">Eastern Standard Time (EST)</string>
+    <string name="cst">Central Standard Time (CST)</string>
+    <string name="mst">Mountain Standard Time (MST)</string>
+    <string name="pst">Pacific Standard Time (PST)</string>
+    <string name="clear_All">Clear All</string>
+    <string name="convert">convert</string>
+    <string name="hour">Hour</string>
+    <string name="min">Minute</string>
+    <string name="previousDay">Previous day</string>
+</resources>
