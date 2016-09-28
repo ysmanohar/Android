@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mannu.inclass08.FirstscreenFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Username_label"
+            android:id="@+id/textView"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Username"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Pass_label"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/Username"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="62dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Login_label"
+            android:id="@+id/Login"
+            android:layout_below="@+id/Password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="118dp" />
+    </RelativeLayout>
+</FrameLayout>
