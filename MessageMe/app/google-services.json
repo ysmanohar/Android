@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "630476234155",
+    "firebase_url": "https://life-2536e.firebaseio.com",
+    "project_id": "life-2536e",
+    "storage_bucket": "life-2536e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630476234155:android:29e3fdbf80890b30",
+        "android_client_info": {
+          "package_name": "com.example.mannu.life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630476234155-evl1p8hm0p3283tfsthnln0ke4an3qa0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mannu.life",
+            "certificate_hash": "89D518C0C128D34D4AB1C51DAB69C0155AFE7048"
+          }
+        },
+        {
+          "client_id": "630476234155-ahrfvrf8oso71ko1o5kpcj77c6ne2pbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB26HdJ2cbdMt_g9-94JqtAb9BKAI01ung"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630476234155-ahrfvrf8oso71ko1o5kpcj77c6ne2pbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
