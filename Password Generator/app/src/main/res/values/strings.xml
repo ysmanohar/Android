@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">InClass04</string>
+    <string name="number_label">Numbers</string>
+    <string name="upper_label">Uppercase Latters</string>
+    <string name="lower_label">Lowercase Letters</string>
+    <string name="special_label">Special Characters</string>
+    <string name="async_label">Generate Password (AsyncTask)</string>
+    <string name="thread_label">Generate Password (Thread)</string>
+    <string name="array_name">array_name</string>
+    <string-array name="pass">
+        <item>Select Password Length</item>
+        <item>8-12</item>
+        <item>13-17</item>
+        <item>18-22</item>
+    </string-array>
+</resources>
