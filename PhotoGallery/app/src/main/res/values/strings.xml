@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Inclass05</string>
+    <string name="go_label">Go</string>
+    <array name="array_items">
+        <item> UNCC</item>
+        <item> Android</item>
+        <item> Winter</item>
+        <item> Aurora</item>
+        <item> Wonders</item>
+    </array>
+
+</resources>
