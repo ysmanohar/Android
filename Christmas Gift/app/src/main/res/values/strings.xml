@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="person_label">Person\'s Name</string>
+    <string name="Budget_label">Your Budget:</string>
+    <string name="dollar_label">$</string>
+    <string name="giftsbought">gifts bought</string>
+    <string name="gifts">gifts bought</string>
+</resources>

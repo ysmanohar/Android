@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "474729033064",
+    "firebase_url": "https://project-d9dac.firebaseio.com",
+    "project_id": "project-d9dac",
+    "storage_bucket": "project-d9dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474729033064:android:c100c82bc7c7d305",
+        "android_client_info": {
+          "package_name": "com.example.mannu.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474729033064-jmjroa8du3gern9mqe6ajvfdq1gfsaho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYxRT3uqGt_6C6MGoKSlrUk2brpcXhKPs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
