@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PlayActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="Large Text"
+        android:id="@+id/textViewTitle1"
+
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textViewTitle1"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/Description"
+        android:id="@+id/textViewDescription"
+        android:layout_below="@+id/imageView2"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textViewDesValue"
+        android:layout_alignTop="@+id/textViewDescription"
+        android:layout_toRightOf="@+id/textViewDescription"
+        android:layout_toEndOf="@+id/textViewDescription"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/Pub"
+        android:id="@+id/textViewDate"
+        android:layout_below="@+id/textViewDesValue"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textViewDateValue"
+        android:layout_alignBottom="@+id/textViewDate"
+        android:layout_toRightOf="@+id/textViewDate"
+        android:layout_toEndOf="@+id/textViewDate"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/Duration"
+        android:id="@+id/textViewDuration"
+        android:layout_below="@+id/textViewDate"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textViewDurationValue"
+        android:layout_alignBottom="@+id/textViewDuration"
+        android:layout_toRightOf="@+id/textViewDuration"
+        android:layout_toEndOf="@+id/textViewDuration"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pause2"
+        android:layout_above="@+id/ProgressBar2"
+        android:src="@android:drawable/ic_media_play"
+
+
+        />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ProgressBar2"
+        android:layout_alignParentBottom="true"
+
+
+        />
+
+</RelativeLayout>

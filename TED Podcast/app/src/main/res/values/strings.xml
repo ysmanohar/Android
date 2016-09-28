@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TED Radio Hour Podcast</string>
+    <string name="play">Play</string>
+    <string name="Description">Description : </string>
+    <string name="Pub">Publication Date : </string>
+    <string name="Duration">Duration : </string>
+</resources>
